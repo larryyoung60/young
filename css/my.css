@@ -1,0 +1,36 @@
+
+html, body {width:100%;height:100%;} /*非常重要的样式让背景图片100%适应整个屏幕*/  
+.bg 
+	{
+		display: table;
+		width: 100%;
+		height: 100%;
+		padding: 100px 0;
+		text-align: center;
+		color: #fff;
+		background:  url("../img/40.jpg") no-repeat bottom center;
+		background-color: #000;
+		background-size: cover;
+		overflow-y:hidden
+	}  
+.my-navbar 
+	{
+		overflow:auto;
+		width: 100%;
+		height: 100%;
+		padding:-1px 0;
+		transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+	}  
+.my-navbar a{background:transparent !important;color:#45bcf9 !important}  
+.my-navbar a:hover {color:#45bcf9 !important;background:transparent;outline:0}  
+.my-navbar a {transition: color 0.5s ease-in-out;}/*-webkit-transition ;-moz-transition*/  
+.top-nav {padding:0;background:#000;}  
+button.navbar-toggle {background-color:#fbfbfb;}/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/  
+button.navbar-toggle > span.icon-bar {background-color:#dedede}  
+a {font-size:14px} 
+a:link {color: blue; text-decoration:none;} 
+a:active:{color: red; } //激活：红色 
+a:visited {color:purple;text-decoration:none;} 
+a:hover {color: red; text-decoration:underline;} 
+.imgborder{BORDER-RIGHT:#CCCFF 10px outset; BORDER-top:#cccfff 10px outset-rigth;BORDER:#cccfff 10px outset;BORDER-BOTTOM:#cccfff 10px outset;}
+.titlecss{font-family:"“微软雅黑";font-size:20px;background-color:#3333ff;color:#3333ff;margin-top:0px;vertical-align:middle;display:block;}

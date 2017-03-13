@@ -1,0 +1,89 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+    <title></title>  
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scale=no" />  
+     	<link rel="stylesheet" href="http://swipebox.brutaldesign.com/css/style.css">
+	<link rel="stylesheet" href="source/swipebox.css">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>  
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	<link rel="stylesheet" href="css/my.css"  type="text/css">  
+			<script src="lib/ios-orientationchange-fix.js"></script>
+	
+	<script src="source/jquery.swipebox.min.js"></script>
+</head>  
+<body>  
+   <nav class="navbar navbar-fixed-top my-navbar" role="navigation">  
+        <div class="container-fluid">  
+            <div class="navbar-header">  
+                <button type="button" class="navbar-toggle" data-toggle="collapse"  
+                        data-target="#example-navbar-collapse">  
+                    <span class="sr-only">切换导航</span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                </button>  
+			<a class="navbar-brand " style="color:#3333FF;" href="#" >真人勇士<br>CS体验馆</a>
+            </div>  
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">  
+                <ul class="nav navbar-nav">  
+	 <li class="active label label-default" ><a href="index.html">首页</a></li>  
+                    <li class="active label label-default" ><a href="场地.html">场地参观</a></li>  
+					<li class="label label-default"><a href="资费标准.html">资费标准</a></li> 
+					<li class="label label-default"><a href="往期回顾.html">往期回顾</a></li> 
+					<li class="label label-default"><a href="#">关于我们</a></li>
+                </ul>  
+            </div>  
+        </div>  
+		<div  style="margin-left:7%;" >
+			<a href="img/meet/cd7.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd7.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd5.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd5.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd9.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd9.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd10.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd10.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd11.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd11.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd1.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd1.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd3.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd3.JPG" width=360 height=220> </img>
+			</a>
+			<a href="img/meet/cd4.JPG" class="swipebox" title="场地">
+			<img class="imgborder" src = "img/meet/cd4.JPG" width=360 height=220> </img>
+			</a>
+<img class="imgborder" src = "img/meet/cd6.JPG" width=360 height=220> </img>
+
+			
+
+		</div>
+
+    </nav>  
+	<embed src="mp3\追梦人.mp3" width=0 height=0 type=audio/mpeg loop="true" autostart="false"  style="visibility:hidden"  />
+ 
+     <div class="bg"></div>  
+
+    <script>  
+
+        $(window).scroll(function () {  
+            if ($(".navbar").offset().top > 50) {$(".navbar-fixed-top").addClass("top-nav");  
+            }else {$(".navbar-fixed-top").removeClass("top-nav");}  
+        })
+				jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+			
+		
+		
+		</script>  
+</body></html> 
