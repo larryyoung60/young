@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+    <title></title>  
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scale=no" />  
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>  
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	<link rel="stylesheet" href="css/my.css"  type="text/css">  
+</head>  
+<body>  
+   <nav class="navbar navbar-fixed-top my-navbar" role="navigation">  
+        <div class="container-fluid">  
+            <div class="navbar-header">  
+                <button type="button" class="navbar-toggle" data-toggle="collapse"  
+                        data-target="#example-navbar-collapse">  
+                    <span class="sr-only">切换导航</span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                </button>  
+			<a class="navbar-brand " style="color:#3333FF;" href="#" >真人勇士<br>CS体验馆</a>
+            </div>  
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">  
+                <ul class="nav navbar-nav">  
+	 <li class="active label label-default" ><a href="index.html">首页</a></li>  
+                    <li class="active label label-default" ><a href="场地.html">场地参观</a></li>  
+					<li class="label label-default"><a href="资费标准.html">资费标准</a></li> 
+					<li class="label label-default"><a href="往期回顾.html">往期回顾</a></li> 
+					<li class="label label-default"><a href="#">关于我们</a></li>
+                </ul>  
+            </div>  
+        </div>  
+		<br>
+		<br>
+		<br>
+		<div style="text-indent:2em;font-size:24px;color:orange;margin-left:10%;margin-right:10%;">
+	<p >本店装备特色：玩家具有军衔等级区分。游戏初期起步均为士兵。根据玩家杀敌数量军衔提升。根据军衔提升本体的防御值增加。杀伤力增加，枪型自动升级。弹夹数量增加。提高了长时间作战的乐趣。马甲特色。语音报读：击中敌人、击毙敌人、误打自己人、和本身被攻击的特性。更加真实提高乐趣。</p>
+	<p style="color:red;"> 单人体验价：42元/小时</p>
+	<p style="color:red;"> 6人体验价：240元/小时</p>
+		</div>
+
+    </nav>  
+	<embed src="mp3\追梦人.mp3" width=0 height=0 type=audio/mpeg loop="true" autostart="false"  style="visibility:hidden"  />
+ 
+     <div class="bg"></div>  
+
+    <script>  
+	var nwidth = 500;
+	var nheight = 400;
+        $(window).scroll(function () {  
+            if ($(".navbar").offset().top > 50) {$(".navbar-fixed-top").addClass("top-nav");  
+            }else {$(".navbar-fixed-top").removeClass("top-nav");}  
+        })</script>  
+</body></html> 
